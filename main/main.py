@@ -22,3 +22,13 @@ while(choice=='y'):
             print("You exceeded 10 guesses!, you gotta concentrate more!!")
 
     guess+=1
+    
+    choice=input("Try again/ No:(y/n):")
+    if(choice=='y'):
+        continue
+    elif(choice=='n'):
+        print("See you soon!")
+        break
+    else:
+        print("Invalid choice!")
+
